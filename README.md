@@ -2,7 +2,7 @@
 
 👊数据结构 typescript 版
 
-### 栈
+## [栈](https://github.com/shenzekun/Data-Structure/blob/master/stack/stack.ts)
 
 
 ```typescript
@@ -56,7 +56,7 @@ console.log(stack.items);//[]
 
 ```
 
-### 队列
+## [队列](https://github.com/shenzekun/Data-Structure/blob/master/queue/queue.ts)
 
 ```typescript
 class Queue {
@@ -109,7 +109,7 @@ console.log(queue.items); //[]
 
 ```
 
-### 最小优先队列
+## [最小优先队列](https://github.com/shenzekun/Data-Structure/blob/master/queue/priorityQueue.ts)
 
 ```typescript
 let PriorityQueue = (function() {
