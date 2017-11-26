@@ -15,7 +15,7 @@ class Stack {
     return this.items[this.items.length - 1];
   }
 
-  //判断栈顶是否为空
+  //判断栈是否为空
   isEmpty() {
     return this.items.length === 0;
   }
