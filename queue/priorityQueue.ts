@@ -29,6 +29,8 @@ let PriorityQueue = (function() {
         }
       }
     }
+
+    //移除队列的第一项，并返回移除的元素
     dequeue() {
       return this.items.shift();
     }
@@ -59,8 +61,8 @@ let PriorityQueue = (function() {
   }
 
   class QueueElement {
-    element;
-    priority;
+    element:any;
+    priority:number;
     constructor(element: any, priority: number) {
       this.element = element;
       this.priority = priority;

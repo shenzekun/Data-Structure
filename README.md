@@ -1,6 +1,6 @@
 # Data-Structure
 
-👊数据结构 typescript 版
+数据结构 typescript
 
 ## [栈](https://github.com/shenzekun/Data-Structure/blob/master/stack/stack.ts)
 
@@ -143,6 +143,8 @@ let PriorityQueue = (function() {
         }
       }
     }
+
+    //移除队列的第一项，并返回移除的元素
     dequeue() {
       return this.items.shift();
     }
@@ -173,8 +175,8 @@ let PriorityQueue = (function() {
   }
 
   class QueueElement {
-    element;
-    priority;
+    element:any;
+    priority:number;
     constructor(element: any, priority: number) {
       this.element = element;
       this.priority = priority;
