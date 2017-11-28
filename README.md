@@ -1,6 +1,6 @@
 # Data-Structure
 
-数据结构 typescript
+学习一波数据结构 （typescript）😑
 
 ## [栈](https://github.com/shenzekun/Data-Structure/blob/master/stack/stack.ts)
 
