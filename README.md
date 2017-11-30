@@ -4,6 +4,11 @@
 
 ## [栈](https://github.com/shenzekun/Data-Structure/blob/master/stack/stack.ts)
 
+>栈是一种遵从后进先出（LIFO）原则的有序集合。新添加的或待删除的元素都保存在栈的末尾，称作栈顶，另一端就叫栈底。在栈里，新元素都靠近栈顶，旧元素都接近栈底。在生活中有很多这样的例子，如我们把擦完的盘子一个一个放在桶里，这个时候，新擦完的盘子是不是放在最上面？之前擦完的盘子是不是放在新擦完的盘子的下面？😄栈就是这个道理
+
+![](https://ws3.sinaimg.cn/small/006tNc79ly1fm0hl914enj30au09itan.jpg)
+
+代码如下：
 
 ```typescript
 class Stack {
@@ -58,6 +63,12 @@ console.log(stack.items);//[]
 
 ## [队列](https://github.com/shenzekun/Data-Structure/blob/master/queue/queue.ts)
 
+>队列是遵循FIFO（First In First Out，先进先出，也称为先来先服务）原则的一组有序的项。队列在尾部添加新元素，并从顶部移除元素。最新添加的元素必须排在队列的末尾。在现实中，最常见的队列的例子就是排队（最先排队的人能更快获取到服务，最晚的排队的人当然只能最晚获得服务啦😊）
+
+![](https://ws1.sinaimg.cn/small/006tNc79ly1fm0hp7s7dij30da07awf9.jpg)
+
+代码如下：
+
 ```typescript
 class Queue {
   items: Array<number | string> = [];
@@ -110,6 +121,10 @@ console.log(queue.items); //[]
 ```
 
 ## [最小优先队列](https://github.com/shenzekun/Data-Structure/blob/master/queue/priorityQueue.ts)
+
+>这个其实就是队列的改进版。举个例子， 在机场上，头等舱和商务舱乘客的优先级要高于经济舱乘客。在有些国家，老年人和孕妇登机时享有高于其他乘客的优先级，那这个时候就要根据优先级来排队入列😁
+
+代码如下
 
 ```typescript
 let PriorityQueue = (function() {
@@ -207,6 +222,12 @@ QueueElement { element: 'John', priority: 2 } ]
 ```
 
 ## [链表](https://github.com/shenzekun/Data-Structure/blob/master/linkedList/linkedList.ts)
+
+>链表存储有序的元素的集合，它不同于数组，链表中的元素在内存中并不是连续放置的，每个元素由一个存储元素本身的节点和一个指向下一个元素的引用（也称指针或链接）组成，如下图：
+
+![](https://ws1.sinaimg.cn/large/006tNc79ly1fm0h71f5m4j30xe06mwem.jpg)
+
+代码如下：
 
 ```typescript
 const LinkedList = (function() {
@@ -384,9 +405,14 @@ console.log("after remove: \n" + list.toString()); //2 55
 
 ## [双向链表](https://github.com/shenzekun/Data-Structure/blob/master/linkedList/doublyLinkedList.ts)
 
+>双向链表和普通链表的区别在于， 在链表中， 一个节点只有链向下一个节点的链接，而在双向链表中，链接是双向的：一个链向下一个元素， 另一个链向前一个元素，如下图所示：
+
+![](https://ws4.sinaimg.cn/large/006tNc79ly1fly5ydpanuj319a09mglv.jpg)
+
+代码如下：
+
 ```typescript
 //双向链表
-//图片 ：https://ws4.sinaimg.cn/large/006tNc79ly1fly5ydpanuj319a09mglv.jpg
 const DoublyLinkedList = (function() {
     class StructureNode {
         element: any;
