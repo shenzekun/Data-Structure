@@ -661,7 +661,7 @@ console.log('after remove: \n' + list1.toString()); //4 2 12 55
 
 >循环链表可以像链表一样只有单向引用，也可以像双向链表一样有双向引用。循环链表和链表之间唯一的区别在于，最后一个元素指向下一个元素的指针（tail.next）不是引用null， 而是指向第一个元素（head） ，如下图所示:
 
-![](https://ws2.sinaimg.cn/large/006tKfTcly1fm3bp6jcoqj30r208ct8t.jpg)
+![](https://ws2.sinaimg.cn/bmiddle/006tKfTcly1fm3bp6jcoqj30r208ct8t.jpg)
 
 代码如下：
 
