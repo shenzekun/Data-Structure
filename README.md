@@ -1168,7 +1168,7 @@ hash.printf();
 
 >我们都知道二叉树中的节点最多只能有两个子节点：一个是左侧子节点，另一个是右侧子节点。这些定义有助于我们写出更高效的向/从树中插入、查找和删除节点的算法。而二叉搜索树（BST）是二叉树的一种，但是它只允许你在左侧节点存储（比父节点）小的值， 在右侧节点存储（比父节点）大（或者等于）的值，如图：
 
-![](https://ws1.sinaimg.cn/large/006tNc79ly1fn6nbxg0xlj30zk0jkjul.jpg)
+![](https://ws1.sinaimg.cn/bmiddle/006tNc79ly1fn6nbxg0xlj30zk0jkjul.jpg)
 
 代码如下：
 
