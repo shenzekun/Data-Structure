@@ -1488,7 +1488,7 @@ console.log('====================================');
 
 > 图是网络结构的抽象模型。图是一组由边连接的节点（或顶点） 。学习图是重要的，因为任何二元关系都可以用图来表示。我们还可以使用图来表示道路、航班以及通信状态，如下图所示
 
-![](https://ws4.sinaimg.cn/large/006tNbRwly1fnu6n4d0inj30t40he78i.jpg)
+![](https://ws4.sinaimg.cn/bmiddle/006tNbRwly1fnu6n4d0inj30t40he78i.jpg)
 
 代码如下：
 
