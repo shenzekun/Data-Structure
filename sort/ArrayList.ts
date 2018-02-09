@@ -128,7 +128,6 @@ class ArrayList {
         return result;
     }
 
-
     /**
      * @description 快速排序
      * @memberof ArrayList
@@ -139,7 +138,8 @@ class ArrayList {
 
     quick(array, left, right) {
         let index;
-        if (this.arr.length > 1) { // i 5 l 0 r 6
+        if (this.arr.length > 1) {
+            // i 5 l 0 r 6
             index = this.partition(this.arr, left, right);
             if (left < index - 1) {
                 this.quick(this.arr, left, index - 1);
